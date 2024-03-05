@@ -1,0 +1,133 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+    
+.foto1, .foto2, .foto3, .foto4 {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+}
+    
+.foto1 {
+  background-image: url("imagenes/fondo1.jpg");
+  min-height: 100%;
+}
+    
+.foto2 {
+  background-image: url("imagenes/fondo2.jpg");
+  min-height: 100%;
+  margin: 0;
+}
+
+.foto3 {
+  background-image: url("imagenes/fondo3.jpg");
+  width: 100%;
+}
+
+.foto4 {
+  background-image: url("imagenes/fondo4.jpg");
+  width: 100%;
+}
+
+.cuadro {
+  background-color: #474973;
+  padding: 25px 25px;
+}
+
+.cuadro2 {
+  background-color: #f1dac4;
+  padding: 1px;
+}
+
+.cuadro3 {
+  background-color: #474973;
+  padding: 10px;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 10px solid #474973;
+}
+  
+.Paco {
+  float: right;
+  border: 10px solid #474973;
+}
+
+.exp {
+  height: 200px;
+  border: 10px solid #474973;
+}
+
+.expgaleria {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 30px;
+}
+
+.expe {
+  padding: 50px;
+}
+    
+.texto {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+    
+.texto span.borde {
+  background-color: #474973;
+  color: #f1dac4;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.tabla {
+  padding: 50px;
+}
+
+.intro {
+  color: #474973;
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+    
+h3 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: #f1dac4;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 5px;
+  color: #474973;
+}
+
+p {
+  text-align: center;
+}
+
+.proyecto {
+  padding: 100px;
+}
+
+.tienda {
+  align-items: center;
+}
+  
+@media only screen and (max-device-width: 1024px) {
+  .foto1, .foto2, .foto3, .foto4
+  {
+    background-attachment: scroll;
+  }
+}

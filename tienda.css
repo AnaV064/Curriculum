@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body, html {
+    background:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 200px;
+    height: 250px;
+}
+
+.navbar {
+    background-color: white;
+    height: 30px;
+    text-align: left;
+}
+
+ul{
+    display: none;
+}
+  
+input:checked  ~ ul{
+    display:block;
+}
+
+input {
+    display: none;
+}
+
+label {
+    box-sizing: border-box;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: orangered;
+    float: right;
+}
+
+label:hover {
+    background: orangered;
+}
+
+input:checked ~ label {
+    background: orangered;
+    opacity: 50%;
+}
+
+ul {
+    width: 150px;
+    float: right;
+    padding-top: 30px;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.447);
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    color: orangered;
+}
+
+li:hover {
+    background-color: white;
+}
+
+.inicio {
+    background-image: url("imagenes/geometric-3037028_1280.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h2 {
+    padding: 50px;
+    color: white;
+    margin: 0;
+    font-size: 70px;
+}
+
+.fav {
+    color: #ff440000;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cuadro {
+    background-color: orangered;
+    padding: 1px;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: white;
+    padding-top: 30px;
+}
+
+table {
+    padding-top: 50px;
+    margin: auto;
+    border-spacing: 20px;
+}
+
+.producto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin: auto;
+}
+
+.producto-recuadro {
+    background-color: orangered;
+    text-align: center;
+}
+
+p {
+    color: white;
+}
+
+.boton {
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+}
+
+.boton:hover {
+    background-color: rgba(255, 255, 255, 0.354);
+    color: white;
+}
+
+.margen {
+    background-color: orangered;
+    padding: 48px;
+}
+
+.prod {
+    margin: 0;
+    font-size: 18px;
+    color: #ff440000;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.juego {
+    width: 500px;
+    height: 600px;
+}
+
+.titulo {
+    font-size: 70px;
+    color: orangered;
+    text-align: center;
+    padding: 10px;
+}
+
+.lorem {
+    background-color: orangered;
+    color: white;
+    font-size: 30px;
+}
+
+.galeria {
+    display: flex;
+    overflow-y: auto;
+}
+
+.cimg {
+    width: auto;
+    height: auto;
+}
